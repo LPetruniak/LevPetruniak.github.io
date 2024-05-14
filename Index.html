@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev Petruniak</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/Logo.png" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Lev Petruniak</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Lev Petruniak</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="ToggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="ToggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sections -->
+
+    <section id="profile">
+        <div class="section_pick-container">
+            <img src="./assets/frontImg.jpg" alt="">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Lev Petruniak</h1>
+            <p class="section_text_p2">UI/Ux Designer & Frontend Developer</p>
+            <div class="btn_container">
+            <!--Buttons-->
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/resume1.pdf')">
+                    Inspect CV</button>
+
+                <button class="btn btn-color-1" 
+                onclick="location.href= './#contact' ">
+                    Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <!-- Icons Section -->
+                <img src="./assets/behance.png" 
+                alt="My Behance" 
+                class="icon" 
+                onclick="location.href='https://www.behance.net/levpetruniak/'">
+
+                <img src="./assets/linkedin.png" 
+                alt="My Behance" 
+                class="icon" 
+                onclick="location.href='https://www.linkedin.com/in/lev-petruniak-311220247/'">
+
+                <img src="./assets/github.png" 
+                alt="My Behance" 
+                class="icon" 
+                onclick="location.href='https://github.com/LPetruniak'">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">`
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pick-container">
+                <img src="./assets/about-pic.png" alt="Profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="experience icon" 
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years of<br>Frontend Development & UI/UX Design</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                        alt="experience icon" 
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>Studing at Cracow University of Economics <br> at Applied informatics</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>My name is Lev and now I'm studing ar University of Economics to get a computer science degree. 
+                       I'm From Ukrain but now leave in Poland city Krakow.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon-arrow"
+        onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section_text_p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <!-- Articles -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                                <!-- Article 2 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                                <!-- Article 3 -->
+                                <!-- Article 4 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+                                <!-- Article 5 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+                                <!-- Article 6 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>Material UI</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">UI/UX Design</h2>
+                    <div class="article-container">
+                        <!-- Articles -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>Figma & Photoshop</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+                                <!-- Article 2 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>Wireframing</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+                                <!-- Article 3 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>3D Modeling</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+        
+                                <!-- Article 5 -->
+                        <article>
+                            <img src="./assets/checkmark.png"
+                             alt="experience icon"
+                             class="icon">
+                             <div>
+                                <h3>Prototype</h3>
+                                <p>Basic</p>
+                             </div>
+                        </article>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon-arrow"
+        onclick="location.href='./#projects'">
+    </section>
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/coverRicks.png" 
+                    alt="project1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/coverRicks.png" 
+                    alt="project1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/coverRicks.png" 
+                    alt="project1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/LPetruniak'">
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon-arrow"
+        onclick="location.href='./#projects'">
+    </section>
+    <!--Contact Section -->
+    <section id="contact">
+        <p class="section_text_p1">Get in touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="Email Image" 
+                class="icon contact-icon">
+                <p><a href="levpetruniak@gmail.com">levpetruniak@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                alt="Linked In Image" 
+                class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/lev-petruniak-311220247/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                    <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; Lev Petruniak</p>
+    </footer>
+    <!-- Java Script Conection  -->
+    <script src="script.js"></script>
+</body>
+</html>
